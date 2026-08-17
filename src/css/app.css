@@ -1,0 +1,81 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    @apply scroll-smooth;
+  }
+
+  body {
+    @apply m-0 bg-loy-page font-manrope text-loy-text antialiased;
+  }
+
+  a {
+    @apply no-underline text-inherit;
+  }
+}
+
+@layer components {
+  .loy-shell {
+    @apply relative min-h-screen bg-loy-page;
+  }
+
+  .loy-shell::before {
+    content: '';
+    @apply pointer-events-none absolute inset-0 bg-left-top opacity-[0.12];
+    background-image: url('../../assets/images/bg-pattern.png');
+    background-size: 558px 314px;
+  }
+
+  .loy-pad {
+    @apply relative px-2.5 py-5 desktop:px-[100px] desktop:py-10;
+  }
+
+  .loy-card {
+    @apply rounded-[15px] border border-loy-line bg-loy-glass backdrop-blur-[2px];
+  }
+
+  .loy-table {
+    @apply overflow-hidden rounded-[10px] border border-loy-line desktop:rounded-[15px];
+  }
+
+  .loy-date {
+    @apply flex h-8 items-center bg-loy-ink px-[15px] text-sm font-medium tracking-[0.2px] desktop:h-[67px] desktop:text-xl;
+  }
+
+  .tip-cell {
+    @apply relative flex h-[35px] min-w-0 flex-1 items-center justify-center border-l border-loy-line px-1 text-[11px] transition duration-75 desktop:h-[61px] desktop:px-2.5 desktop:text-[17px];
+  }
+
+  .tip-cell:hover,
+  .tip-cell.is-pick {
+    @apply bg-loy-pick;
+  }
+
+  .tip-label {
+    @apply rounded px-1 py-[2px] desktop:px-[6px] desktop:py-1;
+  }
+
+  .loy-prose p + p,
+  .loy-prose p + ul,
+  .loy-prose p + ol,
+  .loy-prose ul + p,
+  .loy-prose ol + p,
+  .loy-prose ul + .font-bold,
+  .loy-prose ol + .font-bold {
+    @apply mt-2;
+  }
+
+  .loy-prose .font-bold {
+    @apply mt-2;
+  }
+
+  .loy-prose ul {
+    @apply list-disc space-y-1 pl-7;
+  }
+
+  .loy-prose ol {
+    @apply list-decimal space-y-1 pl-7;
+  }
+}

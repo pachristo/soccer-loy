@@ -1,0 +1,43 @@
+[build]
+  command = "npm ci && npm run build && mkdir -p out/dist out/assets && cp -r dist/. out/dist/ && cp -r assets/. out/assets/"
+  publish = "out"
+
+[[redirects]]
+  from = "/bet-of-the-day.php"
+  to = "/bet-of-the-day.html"
+  status = 301
+
+[[redirects]]
+  from = "/about.php"
+  to = "/about.html"
+  status = 301
+
+[[redirects]]
+  from = "/terms.php"
+  to = "/terms.html"
+  status = 301
+
+[[redirects]]
+  from = "/privacy.php"
+  to = "/privacy.html"
+  status = 301
+
+[[redirects]]
+  from = "/bet-of-the-day"
+  to = "/bet-of-the-day.html"
+  status = 200
+
+[[redirects]]
+  from = "/about"
+  to = "/about.html"
+  status = 200
+
+[[redirects]]
+  from = "/terms"
+  to = "/terms.html"
+  status = 200
+
+[[redirects]]
+  from = "/privacy"
+  to = "/privacy.html"
+  status = 200
