@@ -7,8 +7,8 @@ $betCard = [
     'league' => 'La Liga',
     'home' => 'Atlanta',
     'away' => 'FC Barcelona',
-    'home_logo' => 'atalanta.png',
-    'away_logo' => 'barcelona.png',
+    'home_logo' => 'atalanta-v2.png',
+    'away_logo' => 'barcelona-v2.png',
     'prediction' => 'Away & Over 2.5',
     'picks' => ['1', '+1.5'],
 ];

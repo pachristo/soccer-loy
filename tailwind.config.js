@@ -30,7 +30,7 @@ export default {
         manrope: ['Manrope', 'sans-serif'],
       },
       backgroundImage: {
-        maze: "url('../assets/images/bg-pattern.png')",
+        maze: "url('../assets/images/bg-pattern-v2.png')",
       },
       backgroundSize: {
         maze: '558px 314px',

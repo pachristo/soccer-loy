@@ -32,6 +32,8 @@ foreach ($pages as $src => $dest) {
     echo "Wrote out/{$dest}\n";
 }
 
+removeDir($out.'/assets');
+removeDir($out.'/dist');
 copyDir($root.'/assets', $out.'/assets');
 if (is_dir($root.'/dist')) {
     copyDir($root.'/dist', $out.'/dist');
@@ -62,4 +64,26 @@ function copyDir(string $src, string $dst): void
         }
         copy($from, $to);
     }
+}
+
+function removeDir(string $dir): void
+{
+    if (! is_dir($dir)) {
+        return;
+    }
+
+    $items = scandir($dir) ?: [];
+    foreach ($items as $item) {
+        if ($item === '.' || $item === '..') {
+            continue;
+        }
+        $path = $dir.'/'.$item;
+        if (is_dir($path)) {
+            removeDir($path);
+            continue;
+        }
+        unlink($path);
+    }
+
+    rmdir($dir);
 }

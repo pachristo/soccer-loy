@@ -7,7 +7,7 @@
             class="flex flex-1 items-center justify-between rounded-[10px] bg-loy-line px-[15px] py-2.5 text-left text-base text-white"
         >
             <span data-lang-label>English</span>
-            <img src="assets/icons/chevron-down.svg" alt="" class="size-6">
+            <img src="assets/icons/chevron-down-v2.svg" alt="" class="size-6">
         </button>
         <div data-lang-menu class="absolute left-[132px] right-0 top-[52px] z-30 hidden overflow-hidden rounded-[10px] border border-loy-line bg-loy-ink">
             <?php foreach ($languages as $language): ?>
@@ -38,10 +38,10 @@
             <div class="flex items-center justify-center gap-2.5">
                 <p class="text-[17px] leading-5 text-loy-text">Follow Us on:</p>
                 <a href="#" aria-label="Facebook" class="size-6 overflow-hidden">
-                    <img src="assets/icons/facebook.svg" alt="" class="size-6">
+                    <img src="assets/icons/facebook-v2.svg" alt="" class="size-6">
                 </a>
                 <a href="#" aria-label="Telegram" class="size-6 overflow-hidden">
-                    <img src="assets/icons/telegram.svg" alt="" class="size-6">
+                    <img src="assets/icons/telegram-v2.svg" alt="" class="size-6">
                 </a>
             </div>
             <p class="text-center text-[17px] leading-5 text-loy-text">

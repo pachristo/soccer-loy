@@ -19,7 +19,7 @@ $picks = $card['picks'] ?? [];
             <p class="min-w-0 flex-1 truncate text-right text-xl tracking-[0.2px] text-loy-text">
                 <?= htmlspecialchars($card['home'], ENT_QUOTES, 'UTF-8') ?>
             </p>
-            <img src="assets/icons/dash.svg" alt="" class="size-6 shrink-0">
+            <img src="assets/icons/dash-v2.svg" alt="" class="size-6 shrink-0">
             <p class="min-w-0 flex-1 truncate text-left text-xl tracking-[0.2px] text-loy-text">
                 <?= htmlspecialchars($card['away'], ENT_QUOTES, 'UTF-8') ?>
             </p>

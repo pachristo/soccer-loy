@@ -2,10 +2,10 @@
 $currentPage = $currentPage ?? 'home';
 ?>
 <header class="relative z-20 border-b border-loy-line bg-loy-glass backdrop-blur-[21.6px]">
-    <div class="mx-auto flex max-w-loy items-stretch justify-between px-[15px] desktop:px-[100px]">
+    <div class="mx-auto flex max-w-loy items-stretch justify-between px-[15px] desktop:px-0">
         <a href="index.php" class="flex items-center py-5">
             <span class="block h-[41px] w-[162px] shrink-0 desktop:h-[59px] desktop:w-[235px]">
-                <img src="assets/images/logo.png" alt="SoccerLoy" class="h-full w-full object-contain object-left">
+                <img src="assets/images/logo-v2.png" alt="SoccerLoy" class="h-full w-full object-contain object-left">
             </span>
         </a>
         <nav class="hidden items-stretch desktop:flex" aria-label="Main">

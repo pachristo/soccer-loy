@@ -24,7 +24,7 @@
   .loy-shell::before {
     content: '';
     @apply pointer-events-none absolute inset-0 bg-left-top opacity-[0.12];
-    background-image: url('../../assets/images/bg-pattern.png');
+    background-image: url('../../assets/images/bg-pattern-v2.png');
     background-size: 558px 314px;
   }
 
