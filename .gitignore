@@ -4,3 +4,6 @@ out/dist
 out/assets
 .DS_Store
 .vite
+
+# Local Netlify folder
+.netlify
