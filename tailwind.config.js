@@ -27,7 +27,7 @@ export default {
         },
       },
       fontFamily: {
-        manrope: ['Manrope', 'sans-serif'],
+        comfortaa: ['Comfortaa', 'sans-serif'],
       },
       fontSize: {
         sm: ['15px', { lineHeight: '1.25rem' }],
