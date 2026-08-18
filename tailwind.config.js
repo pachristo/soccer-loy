@@ -29,6 +29,9 @@ export default {
       fontFamily: {
         manrope: ['Manrope', 'sans-serif'],
       },
+      fontSize: {
+        sm: ['14.667px', { lineHeight: '1.25rem' }],
+      },
       backgroundImage: {
         maze: "url('../assets/images/bg-pattern-v2.png')",
       },

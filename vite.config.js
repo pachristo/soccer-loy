@@ -14,8 +14,8 @@ export default defineConfig({
     rollupOptions: {
       input: 'src/js/app.js',
       output: {
-        entryFileNames: 'app-v2.js',
-        assetFileNames: 'app-v2[extname]',
+        entryFileNames: 'app-v9.js',
+        assetFileNames: 'app-v9[extname]',
       },
     },
   },

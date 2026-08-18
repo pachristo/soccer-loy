@@ -27,7 +27,7 @@ $picks = $card['picks'] ?? [];
 
         <div class="flex w-full items-center justify-center gap-[7px] desktop:gap-2.5">
             <div class="flex w-[170px] flex-col items-center gap-0.5 desktop:w-[264px] desktop:gap-[3px]">
-                <div class="relative size-[76px] overflow-hidden desktop:size-[118px]">
+                <div class="relative size-12 overflow-hidden desktop:size-[118px]">
                     <img
                         src="assets/images/teams/<?= htmlspecialchars($card['home_logo'], ENT_QUOTES, 'UTF-8') ?>"
                         alt="<?= htmlspecialchars($card['home'], ENT_QUOTES, 'UTF-8') ?>"
@@ -44,7 +44,7 @@ $picks = $card['picks'] ?? [];
             </div>
 
             <div class="flex w-[170px] flex-col items-center gap-0.5 desktop:w-[264px] desktop:gap-[3px]">
-                <div class="relative size-[76px] overflow-hidden desktop:size-[118px]">
+                <div class="relative size-12 overflow-hidden desktop:size-[118px]">
                     <img
                         src="assets/images/teams/<?= htmlspecialchars($card['away_logo'], ENT_QUOTES, 'UTF-8') ?>"
                         alt="<?= htmlspecialchars($card['away'], ENT_QUOTES, 'UTF-8') ?>"

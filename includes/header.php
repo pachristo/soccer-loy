@@ -12,7 +12,7 @@ $currentPage = $currentPage ?? 'home';
             <?php foreach ($navItems as $item): ?>
                 <a
                     href="<?= htmlspecialchars($item['href'], ENT_QUOTES, 'UTF-8') ?>"
-                    class="flex items-center px-5 text-[17px] text-white transition duration-75 hover:bg-white/5 <?= $currentPage === $item['key'] ? 'bg-white/5 font-medium' : 'font-normal' ?>"
+                    class="flex items-center px-5 text-base text-white transition duration-75 hover:bg-white/5 <?= $currentPage === $item['key'] ? 'bg-white/5 font-medium' : 'font-normal' ?>"
                 >
                     <?= htmlspecialchars($item['label'], ENT_QUOTES, 'UTF-8') ?>
                 </a>

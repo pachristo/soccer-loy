@@ -4,15 +4,19 @@
 
 @layer base {
   html {
-    @apply scroll-smooth;
+    @apply overflow-x-hidden scroll-smooth;
   }
 
   body {
     @apply m-0 bg-loy-page font-manrope text-loy-text antialiased;
   }
 
-  a {
-    @apply no-underline text-inherit;
+  h1 {
+    @apply text-xl desktop:text-2xl;
+  }
+
+  h2 {
+    @apply text-xl desktop:text-2xl;
   }
 }
 
@@ -29,7 +33,7 @@
   }
 
   .loy-pad {
-    @apply relative px-2.5 py-5 desktop:px-[100px] desktop:py-10;
+    @apply relative px-2 py-5 max-[360px]:px-1.5 desktop:px-[100px] desktop:py-10;
   }
 
   .loy-card {
@@ -41,11 +45,11 @@
   }
 
   .loy-date {
-    @apply flex h-8 items-center bg-loy-ink px-[15px] text-sm font-medium tracking-[0.2px] desktop:h-[67px] desktop:text-xl;
+    @apply flex h-8 items-center bg-loy-ink px-2.5 text-sm font-medium tracking-[0.2px] desktop:h-[67px] desktop:px-[15px] desktop:text-xl;
   }
 
   .tip-cell {
-    @apply relative flex h-[35px] min-w-0 flex-1 items-center justify-center border-l border-loy-line px-1 text-[11px] transition duration-75 desktop:h-[61px] desktop:px-2.5 desktop:text-[17px];
+    @apply relative flex h-[35px] min-w-0 flex-1 items-center justify-center border-l border-loy-line px-0.5 text-[10px] leading-none tracking-tight transition duration-75 min-[400px]:px-1 min-[400px]:text-[11px] desktop:h-[61px] desktop:overflow-hidden desktop:px-2.5 desktop:text-[14.667px] desktop:leading-normal desktop:tracking-normal;
   }
 
   .tip-cell:hover,
@@ -54,7 +58,7 @@
   }
 
   .tip-label {
-    @apply rounded px-1 py-[2px] desktop:px-[6px] desktop:py-1;
+    @apply whitespace-nowrap rounded px-0.5 py-[2px] desktop:px-[6px] desktop:py-1;
   }
 
   .loy-prose p + p,

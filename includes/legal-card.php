@@ -3,7 +3,7 @@
         <h1 class="text-xl font-medium text-white desktop:text-2xl">
             <?= htmlspecialchars($legal['title'], ENT_QUOTES, 'UTF-8') ?>
         </h1>
-        <div class="loy-prose text-base leading-7 text-loy-text desktop:text-lg">
+        <div class="loy-prose text-sm leading-6 text-loy-text desktop:text-base desktop:leading-7">
             <?php if (! empty($legal['date'])): ?>
                 <p class="text-loy-muted"><?= htmlspecialchars($legal['date'], ENT_QUOTES, 'UTF-8') ?></p>
             <?php endif; ?>

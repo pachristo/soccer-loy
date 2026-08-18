@@ -3,8 +3,8 @@ $picks = $card['picks'] ?? [];
 ?>
 <div class="flex flex-col items-center gap-[7px] desktop:gap-2">
     <div class="flex flex-col items-center gap-0.5 text-center">
-        <p class="text-[12px] text-loy-orange desktop:text-[14px]">Prediction:</p>
-        <p class="text-[14px] font-semibold text-loy-text desktop:text-[17px]">
+        <p class="text-[12px] text-loy-orange desktop:text-[14.667px]">Prediction:</p>
+        <p class="text-[14.667px] font-semibold text-loy-text desktop:text-[14.667px]">
             <?= htmlspecialchars($card['prediction'], ENT_QUOTES, 'UTF-8') ?>
         </p>
     </div>
@@ -17,3 +17,5 @@ $picks = $card['picks'] ?? [];
         <?php endforeach; ?>
     </div>
 </div>
+
+
