@@ -49,7 +49,7 @@
   }
 
   .tip-cell {
-    @apply relative flex h-[35px] min-w-0 flex-1 items-center justify-center border-l border-loy-line px-0.5 text-[10px] leading-none tracking-tight transition duration-75 min-[400px]:px-1 min-[400px]:text-[11px] desktop:h-[61px] desktop:overflow-hidden desktop:px-2.5 desktop:text-[15px] desktop:leading-normal desktop:tracking-normal;
+    @apply relative flex h-[35px] min-w-0 flex-1 items-center justify-center border-l border-loy-line px-0.5 text-[15px] leading-none tracking-tight transition duration-75 min-[400px]:px-1 desktop:h-[61px] desktop:overflow-hidden desktop:px-2.5 desktop:leading-normal desktop:tracking-normal;
   }
 
   .tip-cell:hover,

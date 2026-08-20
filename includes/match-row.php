@@ -14,11 +14,11 @@ $league = $match['league'] ?? 'chmp';
                 >
             </span>
             <div class="flex min-w-0 flex-1 items-center justify-center gap-0.5">
-                <p class="min-w-0 flex-1 truncate text-right text-[11px] tracking-[0.15px] text-loy-text">
+                <p class="min-w-0 flex-1 truncate text-right text-[15px] tracking-[0.15px] text-loy-text">
                     <?= htmlspecialchars($match['home'], ENT_QUOTES, 'UTF-8') ?>
                 </p>
                 <img src="assets/icons/dash-v2.svg" alt="" class="size-3.5 shrink-0">
-                <p class="min-w-0 flex-1 truncate text-left text-[11px] tracking-[0.15px] text-loy-text">
+                <p class="min-w-0 flex-1 truncate text-left text-[15px] tracking-[0.15px] text-loy-text">
                     <?= htmlspecialchars($match['away'], ENT_QUOTES, 'UTF-8') ?>
                 </p>
             </div>

@@ -1,4 +1,4 @@
-    <script src="dist/app-v11.js"></script>
+    <script src="dist/app-v12.js"></script>
 </div>
 </body>
 </html>
